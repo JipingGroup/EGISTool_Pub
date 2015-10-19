@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2VD-ae-IN4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIy-ev-iJe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="cPV-dL-ha9"/>
+                                    <constraint firstAttribute="height" constant="25" id="qVY-bS-dia"/>
+                                </constraints>
+                                <state key="normal" image="arrow_01.png"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cPV-dL-ha9"/>
+                                        <exclude reference="qVY-bS-dia"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="cPV-dL-ha9"/>
+                                        <include reference="qVY-bS-dia"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2VD-ae-IN4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="CJy-2d-Gv6"/>
+                            <constraint firstItem="2VD-ae-IN4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DW4-Er-c3T"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2VD-ae-IN4" secondAttribute="bottom" id="PfR-lk-k2U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="2VD-ae-IN4" secondAttribute="trailing" constant="-20" id="sDR-gy-GMJ"/>
+                            <constraint firstItem="TIy-ev-iJe" firstAttribute="centerX" secondItem="2VD-ae-IN4" secondAttribute="centerX" id="sef-b7-tZM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TIy-ev-iJe" secondAttribute="bottom" constant="25" id="wgK-ao-lbF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2VD-ae-IN4"/>
+                                <exclude reference="TIy-ev-iJe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="CJy-2d-Gv6"/>
+                                <exclude reference="DW4-Er-c3T"/>
+                                <exclude reference="sDR-gy-GMJ"/>
+                                <exclude reference="sef-b7-tZM"/>
+                                <exclude reference="PfR-lk-k2U"/>
+                                <exclude reference="wgK-ao-lbF"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2VD-ae-IN4"/>
+                                <include reference="TIy-ev-iJe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="CJy-2d-Gv6"/>
+                                <include reference="DW4-Er-c3T"/>
+                                <include reference="sDR-gy-GMJ"/>
+                                <include reference="sef-b7-tZM"/>
+                                <include reference="PfR-lk-k2U"/>
+                                <include reference="wgK-ao-lbF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="backGroud" destination="2VD-ae-IN4" id="U0z-J0-Glt"/>
+                        <outlet property="nextView" destination="TIy-ev-iJe" id="kGm-la-aO7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="256"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow_01.png" width="59" height="61"/>
+    </resources>
+</document>

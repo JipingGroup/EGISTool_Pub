@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6245F81BD36905009EACA5 /* arrow_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F11BD36905009EACA5 /* arrow_02.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245F91BD36905009EACA5 /* arrow_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F21BD36905009EACA5 /* arrow_03.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245FA1BD36905009EACA5 /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F31BD36905009EACA5 /* color.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245FB1BD36905009EACA5 /* head_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F41BD36905009EACA5 /* head_01.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245FC1BD36905009EACA5 /* Kuan_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F51BD36905009EACA5 /* Kuan_01.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245FD1BD36905009EACA5 /* OK.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F61BD36905009EACA5 /* OK.png */; settings = {ASSET_TAGS = (); }; };
+		1F6245FE1BD36905009EACA5 /* tittle_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6245F71BD36905009EACA5 /* tittle_01.png */; settings = {ASSET_TAGS = (); }; };
+		1F75F89F1BCE2F39002DB80B /* LocationChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F89E1BCE2F39002DB80B /* LocationChooseView.m */; settings = {ASSET_TAGS = (); }; };
+		1F75F8A31BCE3192002DB80B /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75F8A21BCE3192002DB80B /* CountryCell.m */; settings = {ASSET_TAGS = (); }; };
+		1F87C78F1BCFF6A500036210 /* UserInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F87C78D1BCFF6A500036210 /* UserInfoView.m */; settings = {ASSET_TAGS = (); }; };
+		1F87C7901BCFF6A500036210 /* UserInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F87C78E1BCFF6A500036210 /* UserInfoView.xib */; settings = {ASSET_TAGS = (); }; };
+		1F8D226D1BD2B1310013AF29 /* pay_detail@2x-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22641BD2B1310013AF29 /* pay_detail@2x-2.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D226E1BD2B1310013AF29 /* pay_detail@2x-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22651BD2B1310013AF29 /* pay_detail@2x-3.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D226F1BD2B1310013AF29 /* pay_detail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22661BD2B1310013AF29 /* pay_detail@2x.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22701BD2B1310013AF29 /* pay_detail@3x-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22671BD2B1310013AF29 /* pay_detail@3x-2.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22711BD2B1310013AF29 /* pay_detail@3x-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22681BD2B1310013AF29 /* pay_detail@3x-3.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22721BD2B1310013AF29 /* pay_detail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D22691BD2B1310013AF29 /* pay_detail@3x.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22731BD2B1310013AF29 /* pay_detail@x-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D226A1BD2B1310013AF29 /* pay_detail@x-2.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22741BD2B1310013AF29 /* pay_detail@x-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D226B1BD2B1310013AF29 /* pay_detail@x-3.png */; settings = {ASSET_TAGS = (); }; };
+		1F8D22751BD2B1310013AF29 /* pay_detail@x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F8D226C1BD2B1310013AF29 /* pay_detail@x.png */; settings = {ASSET_TAGS = (); }; };
+		1FA72E9C1BD2BBE700AAB808 /* arrow_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA72E9A1BD2BBE700AAB808 /* arrow_01.png */; settings = {ASSET_TAGS = (); }; };
+		1FA72E9D1BD2BBE700AAB808 /* Donghua_First.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FA72E9B1BD2BBE700AAB808 /* Donghua_First.png */; settings = {ASSET_TAGS = (); }; };
+		4CAEDD3D1B97DF1900A8B7AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEDD3C1B97DF1900A8B7AB /* main.m */; };
+		4CAEDD401B97DF1900A8B7AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEDD3F1B97DF1900A8B7AB /* AppDelegate.m */; };
+		4CAEDD431B97DF1900A8B7AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEDD421B97DF1900A8B7AB /* ViewController.m */; };
+		4CAEDD461B97DF1900A8B7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDD441B97DF1900A8B7AB /* Main.storyboard */; };
+		4CAEDD481B97DF1900A8B7AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDD471B97DF1900A8B7AB /* Images.xcassets */; };
+		4CAEDD4B1B97DF1900A8B7AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEDD491B97DF1900A8B7AB /* LaunchScreen.xib */; };
+		4CAEDD571B97DF1900A8B7AB /* EGISToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEDD561B97DF1900A8B7AB /* EGISToolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CAEDD511B97DF1900A8B7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CAEDD2F1B97DF1900A8B7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CAEDD361B97DF1900A8B7AB;
+			remoteInfo = EGISTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6245F11BD36905009EACA5 /* arrow_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_02.png; sourceTree = "<group>"; };
+		1F6245F21BD36905009EACA5 /* arrow_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_03.png; sourceTree = "<group>"; };
+		1F6245F31BD36905009EACA5 /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		1F6245F41BD36905009EACA5 /* head_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_01.png; sourceTree = "<group>"; };
+		1F6245F51BD36905009EACA5 /* Kuan_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kuan_01.png; sourceTree = "<group>"; };
+		1F6245F61BD36905009EACA5 /* OK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OK.png; sourceTree = "<group>"; };
+		1F6245F71BD36905009EACA5 /* tittle_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tittle_01.png; sourceTree = "<group>"; };
+		1F75F89D1BCE2F39002DB80B /* LocationChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationChooseView.h; sourceTree = "<group>"; };
+		1F75F89E1BCE2F39002DB80B /* LocationChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationChooseView.m; sourceTree = "<group>"; };
+		1F75F8A11BCE3192002DB80B /* CountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		1F75F8A21BCE3192002DB80B /* CountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		1F87C78C1BCFF6A500036210 /* UserInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoView.h; sourceTree = "<group>"; };
+		1F87C78D1BCFF6A500036210 /* UserInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoView.m; sourceTree = "<group>"; };
+		1F87C78E1BCFF6A500036210 /* UserInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoView.xib; sourceTree = "<group>"; };
+		1F8D22641BD2B1310013AF29 /* pay_detail@2x-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@2x-2.png"; sourceTree = "<group>"; };
+		1F8D22651BD2B1310013AF29 /* pay_detail@2x-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@2x-3.png"; sourceTree = "<group>"; };
+		1F8D22661BD2B1310013AF29 /* pay_detail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@2x.png"; sourceTree = "<group>"; };
+		1F8D22671BD2B1310013AF29 /* pay_detail@3x-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@3x-2.png"; sourceTree = "<group>"; };
+		1F8D22681BD2B1310013AF29 /* pay_detail@3x-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@3x-3.png"; sourceTree = "<group>"; };
+		1F8D22691BD2B1310013AF29 /* pay_detail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@3x.png"; sourceTree = "<group>"; };
+		1F8D226A1BD2B1310013AF29 /* pay_detail@x-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@x-2.png"; sourceTree = "<group>"; };
+		1F8D226B1BD2B1310013AF29 /* pay_detail@x-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@x-3.png"; sourceTree = "<group>"; };
+		1F8D226C1BD2B1310013AF29 /* pay_detail@x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay_detail@x.png"; sourceTree = "<group>"; };
+		1FA72E9A1BD2BBE700AAB808 /* arrow_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_01.png; sourceTree = "<group>"; };
+		1FA72E9B1BD2BBE700AAB808 /* Donghua_First.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Donghua_First.png; sourceTree = "<group>"; };
+		4CAEDD371B97DF1900A8B7AB /* EGISTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGISTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEDD3B1B97DF1900A8B7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAEDD3C1B97DF1900A8B7AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CAEDD3E1B97DF1900A8B7AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CAEDD3F1B97DF1900A8B7AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CAEDD411B97DF1900A8B7AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CAEDD421B97DF1900A8B7AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CAEDD451B97DF1900A8B7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAEDD471B97DF1900A8B7AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CAEDD4A1B97DF1900A8B7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4CAEDD501B97DF1900A8B7AB /* EGISToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGISToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEDD551B97DF1900A8B7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAEDD561B97DF1900A8B7AB /* EGISToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGISToolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAEDD341B97DF1900A8B7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEDD4D1B97DF1900A8B7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F75F8A01BCE315B002DB80B /* LocatinoChoose */ = {
+			isa = PBXGroup;
+			children = (
+				1F75F89D1BCE2F39002DB80B /* LocationChooseView.h */,
+				1F75F89E1BCE2F39002DB80B /* LocationChooseView.m */,
+				1F75F8A11BCE3192002DB80B /* CountryCell.h */,
+				1F75F8A21BCE3192002DB80B /* CountryCell.m */,
+			);
+			name = LocatinoChoose;
+			sourceTree = "<group>";
+		};
+		1F87C7881BCFF59900036210 /* userInfo */ = {
+			isa = PBXGroup;
+			children = (
+				1F87C78C1BCFF6A500036210 /* UserInfoView.h */,
+				1F87C78D1BCFF6A500036210 /* UserInfoView.m */,
+				1F87C78E1BCFF6A500036210 /* UserInfoView.xib */,
+			);
+			name = userInfo;
+			sourceTree = "<group>";
+		};
+		1F8D22631BD2B1310013AF29 /* pay_detail@2x */ = {
+			isa = PBXGroup;
+			children = (
+				1F8D22641BD2B1310013AF29 /* pay_detail@2x-2.png */,
+				1F8D22651BD2B1310013AF29 /* pay_detail@2x-3.png */,
+				1F8D22661BD2B1310013AF29 /* pay_detail@2x.png */,
+				1F8D22671BD2B1310013AF29 /* pay_detail@3x-2.png */,
+				1F8D22681BD2B1310013AF29 /* pay_detail@3x-3.png */,
+				1F8D22691BD2B1310013AF29 /* pay_detail@3x.png */,
+				1F8D226A1BD2B1310013AF29 /* pay_detail@x-2.png */,
+				1F8D226B1BD2B1310013AF29 /* pay_detail@x-3.png */,
+				1F8D226C1BD2B1310013AF29 /* pay_detail@x.png */,
+			);
+			path = "pay_detail@2x";
+			sourceTree = "<group>";
+		};
+		4CAEDD2E1B97DF1900A8B7AB = {
+			isa = PBXGroup;
+			children = (
+				4CAEDD391B97DF1900A8B7AB /* EGISTool */,
+				4CAEDD531B97DF1900A8B7AB /* EGISToolTests */,
+				4CAEDD381B97DF1900A8B7AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAEDD381B97DF1900A8B7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEDD371B97DF1900A8B7AB /* EGISTool.app */,
+				4CAEDD501B97DF1900A8B7AB /* EGISToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAEDD391B97DF1900A8B7AB /* EGISTool */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEDD3E1B97DF1900A8B7AB /* AppDelegate.h */,
+				4CAEDD3F1B97DF1900A8B7AB /* AppDelegate.m */,
+				4CAEDD411B97DF1900A8B7AB /* ViewController.h */,
+				4CAEDD421B97DF1900A8B7AB /* ViewController.m */,
+				4CAEDD441B97DF1900A8B7AB /* Main.storyboard */,
+				1F87C7881BCFF59900036210 /* userInfo */,
+				1F75F8A01BCE315B002DB80B /* LocatinoChoose */,
+				4CAEDD471B97DF1900A8B7AB /* Images.xcassets */,
+				4CAEDD491B97DF1900A8B7AB /* LaunchScreen.xib */,
+				4CAEDD3A1B97DF1900A8B7AB /* Supporting Files */,
+			);
+			path = EGISTool;
+			sourceTree = "<group>";
+		};
+		4CAEDD3A1B97DF1900A8B7AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6245F11BD36905009EACA5 /* arrow_02.png */,
+				1F6245F21BD36905009EACA5 /* arrow_03.png */,
+				1F6245F31BD36905009EACA5 /* color.png */,
+				1F6245F41BD36905009EACA5 /* head_01.png */,
+				1F6245F51BD36905009EACA5 /* Kuan_01.png */,
+				1F6245F61BD36905009EACA5 /* OK.png */,
+				1F6245F71BD36905009EACA5 /* tittle_01.png */,
+				1FA72E9A1BD2BBE700AAB808 /* arrow_01.png */,
+				1FA72E9B1BD2BBE700AAB808 /* Donghua_First.png */,
+				1F8D22631BD2B1310013AF29 /* pay_detail@2x */,
+				4CAEDD3B1B97DF1900A8B7AB /* Info.plist */,
+				4CAEDD3C1B97DF1900A8B7AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CAEDD531B97DF1900A8B7AB /* EGISToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEDD561B97DF1900A8B7AB /* EGISToolTests.m */,
+				4CAEDD541B97DF1900A8B7AB /* Supporting Files */,
+			);
+			path = EGISToolTests;
+			sourceTree = "<group>";
+		};
+		4CAEDD541B97DF1900A8B7AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEDD551B97DF1900A8B7AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAEDD361B97DF1900A8B7AB /* EGISTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEDD5A1B97DF1900A8B7AB /* Build configuration list for PBXNativeTarget "EGISTool" */;
+			buildPhases = (
+				4CAEDD331B97DF1900A8B7AB /* Sources */,
+				4CAEDD341B97DF1900A8B7AB /* Frameworks */,
+				4CAEDD351B97DF1900A8B7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGISTool;
+			productName = EGISTool;
+			productReference = 4CAEDD371B97DF1900A8B7AB /* EGISTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CAEDD4F1B97DF1900A8B7AB /* EGISToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEDD5D1B97DF1900A8B7AB /* Build configuration list for PBXNativeTarget "EGISToolTests" */;
+			buildPhases = (
+				4CAEDD4C1B97DF1900A8B7AB /* Sources */,
+				4CAEDD4D1B97DF1900A8B7AB /* Frameworks */,
+				4CAEDD4E1B97DF1900A8B7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CAEDD521B97DF1900A8B7AB /* PBXTargetDependency */,
+			);
+			name = EGISToolTests;
+			productName = EGISToolTests;
+			productReference = 4CAEDD501B97DF1900A8B7AB /* EGISToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAEDD2F1B97DF1900A8B7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ewj01;
+				TargetAttributes = {
+					4CAEDD361B97DF1900A8B7AB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4CAEDD4F1B97DF1900A8B7AB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4CAEDD361B97DF1900A8B7AB;
+					};
+				};
+			};
+			buildConfigurationList = 4CAEDD321B97DF1900A8B7AB /* Build configuration list for PBXProject "EGISTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CAEDD2E1B97DF1900A8B7AB;
+			productRefGroup = 4CAEDD381B97DF1900A8B7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAEDD361B97DF1900A8B7AB /* EGISTool */,
+				4CAEDD4F1B97DF1900A8B7AB /* EGISToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAEDD351B97DF1900A8B7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEDD461B97DF1900A8B7AB /* Main.storyboard in Resources */,
+				1F6245FC1BD36905009EACA5 /* Kuan_01.png in Resources */,
+				1F6245FD1BD36905009EACA5 /* OK.png in Resources */,
+				4CAEDD4B1B97DF1900A8B7AB /* LaunchScreen.xib in Resources */,
+				1F8D22711BD2B1310013AF29 /* pay_detail@3x-3.png in Resources */,
+				1F8D226E1BD2B1310013AF29 /* pay_detail@2x-3.png in Resources */,
+				1FA72E9C1BD2BBE700AAB808 /* arrow_01.png in Resources */,
+				4CAEDD481B97DF1900A8B7AB /* Images.xcassets in Resources */,
+				1F8D22731BD2B1310013AF29 /* pay_detail@x-2.png in Resources */,
+				1F8D22721BD2B1310013AF29 /* pay_detail@3x.png in Resources */,
+				1F6245FB1BD36905009EACA5 /* head_01.png in Resources */,
+				1F8D22701BD2B1310013AF29 /* pay_detail@3x-2.png in Resources */,
+				1F6245FA1BD36905009EACA5 /* color.png in Resources */,
+				1F8D22751BD2B1310013AF29 /* pay_detail@x.png in Resources */,
+				1F8D226F1BD2B1310013AF29 /* pay_detail@2x.png in Resources */,
+				1F6245F81BD36905009EACA5 /* arrow_02.png in Resources */,
+				1F8D22741BD2B1310013AF29 /* pay_detail@x-3.png in Resources */,
+				1FA72E9D1BD2BBE700AAB808 /* Donghua_First.png in Resources */,
+				1F6245F91BD36905009EACA5 /* arrow_03.png in Resources */,
+				1F87C7901BCFF6A500036210 /* UserInfoView.xib in Resources */,
+				1F6245FE1BD36905009EACA5 /* tittle_01.png in Resources */,
+				1F8D226D1BD2B1310013AF29 /* pay_detail@2x-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEDD4E1B97DF1900A8B7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAEDD331B97DF1900A8B7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F75F89F1BCE2F39002DB80B /* LocationChooseView.m in Sources */,
+				1F75F8A31BCE3192002DB80B /* CountryCell.m in Sources */,
+				4CAEDD431B97DF1900A8B7AB /* ViewController.m in Sources */,
+				1F87C78F1BCFF6A500036210 /* UserInfoView.m in Sources */,
+				4CAEDD401B97DF1900A8B7AB /* AppDelegate.m in Sources */,
+				4CAEDD3D1B97DF1900A8B7AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAEDD4C1B97DF1900A8B7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEDD571B97DF1900A8B7AB /* EGISToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CAEDD521B97DF1900A8B7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CAEDD361B97DF1900A8B7AB /* EGISTool */;
+			targetProxy = 4CAEDD511B97DF1900A8B7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CAEDD441B97DF1900A8B7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEDD451B97DF1900A8B7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAEDD491B97DF1900A8B7AB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEDD4A1B97DF1900A8B7AB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAEDD581B97DF1900A8B7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CAEDD591B97DF1900A8B7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAEDD5B1B97DF1900A8B7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EGISTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qwe.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CAEDD5C1B97DF1900A8B7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EGISTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qwe.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CAEDD5E1B97DF1900A8B7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EGISToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qwe.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGISTool.app/EGISTool";
+			};
+			name = Debug;
+		};
+		4CAEDD5F1B97DF1900A8B7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EGISToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qwe.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGISTool.app/EGISTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAEDD321B97DF1900A8B7AB /* Build configuration list for PBXProject "EGISTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEDD581B97DF1900A8B7AB /* Debug */,
+				4CAEDD591B97DF1900A8B7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEDD5A1B97DF1900A8B7AB /* Build configuration list for PBXNativeTarget "EGISTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEDD5B1B97DF1900A8B7AB /* Debug */,
+				4CAEDD5C1B97DF1900A8B7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEDD5D1B97DF1900A8B7AB /* Build configuration list for PBXNativeTarget "EGISToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEDD5E1B97DF1900A8B7AB /* Debug */,
+				4CAEDD5F1B97DF1900A8B7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAEDD2F1B97DF1900A8B7AB /* Project object */;
+}

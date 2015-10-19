@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserInfoView">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pay_detail@2x-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Lw-Yo-ZA5">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJb-Jo-KfI">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="6zs-2d-ilx"/>
+                    </constraints>
+                    <state key="normal" image="OK.png"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6zs-2d-ilx"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6zs-2d-ilx"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="goNextView" destination="-1" eventType="touchUpInside" id="u1R-Iw-sGH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="IJb-Jo-KfI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="122" id="FyC-QK-rOr"/>
+                <constraint firstAttribute="bottom" secondItem="3Lw-Yo-ZA5" secondAttribute="bottom" id="JQa-Qi-fTE"/>
+                <constraint firstAttribute="trailing" secondItem="IJb-Jo-KfI" secondAttribute="trailing" constant="121" id="LJC-94-fbQ"/>
+                <constraint firstItem="3Lw-Yo-ZA5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MYf-YN-yEK"/>
+                <constraint firstItem="3Lw-Yo-ZA5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fTg-wz-Ur3"/>
+                <constraint firstAttribute="trailing" secondItem="3Lw-Yo-ZA5" secondAttribute="trailing" id="fpK-Vd-i5u"/>
+                <constraint firstAttribute="bottom" secondItem="IJb-Jo-KfI" secondAttribute="bottom" constant="19" id="nhr-Bs-nzd"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3Lw-Yo-ZA5"/>
+                    <exclude reference="IJb-Jo-KfI"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="JQa-Qi-fTE"/>
+                    <exclude reference="MYf-YN-yEK"/>
+                    <exclude reference="fTg-wz-Ur3"/>
+                    <exclude reference="fpK-Vd-i5u"/>
+                    <exclude reference="FyC-QK-rOr"/>
+                    <exclude reference="LJC-94-fbQ"/>
+                    <exclude reference="nhr-Bs-nzd"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="3Lw-Yo-ZA5"/>
+                    <include reference="IJb-Jo-KfI"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="JQa-Qi-fTE"/>
+                    <include reference="MYf-YN-yEK"/>
+                    <include reference="fTg-wz-Ur3"/>
+                    <include reference="fpK-Vd-i5u"/>
+                    <include reference="FyC-QK-rOr"/>
+                    <include reference="LJC-94-fbQ"/>
+                    <include reference="nhr-Bs-nzd"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="168" y="366"/>
+        </view>
+        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="mBZ-E7-qzh">
+            <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <animations/>
+            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+            <textInputTraits key="textInputTraits"/>
+            <point key="canvasLocation" x="438.5" y="220"/>
+        </textField>
+    </objects>
+    <resources>
+        <image name="OK.png" width="556" height="118"/>
+        <image name="pay_detail@2x-2.png" width="750" height="1334"/>
+    </resources>
+</document>
